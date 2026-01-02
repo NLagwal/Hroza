@@ -63,13 +63,7 @@ export DATA_DIR="/home/lag/.open-webui/"
 # ---------- ALIASES ----------
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
-alias domake='doas env PKG_CONFIG_PATH=/usr/local/lib64/pkgconfig make'
 alias fetch='fastfetch'
-alias ap='cd /home/lag/Projects/Apollo/'
-# Power up for Jio
-alias jio-fix="sudo sysctl -w net.ipv4.ip_default_ttl=65 && sudo ip link set dev wlan0 mtu 1280"
-# Back to normal
-alias jio-unfix="sudo sysctl -w net.ipv4.ip_default_ttl=64 && sudo ip link set dev wlan0 mtu 1500"
 
 # ---------- FZF (Fuzzy Finder) Configuration ----------
 # Load FZF functions/bindings
