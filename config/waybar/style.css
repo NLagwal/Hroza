@@ -1,0 +1,125 @@
+/* Global Styles */
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "BlexMono Nerd Font Mono", monospace;
+    font-size: 14px;
+    min-height: 0;
+}
+
+window#waybar {
+    background-color: #1D1A20;
+    color: #E6E7E9;
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+window#waybar.hidden {
+    opacity: 0.2;
+}
+
+/* --- Workspaces --- */
+
+/* Base button style (Inactive) - Text Color */
+#workspaces button {
+    padding: 0 5px;
+    background-color: transparent;
+    color: #E6E7E9;
+    transition: color 0.3s;
+}
+
+/* Hover State */
+#workspaces button:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+/* Active State - Accent Red */
+#workspaces button.active {
+    color: #D3273F;
+}
+
+/* Focused State - Accent Red */
+#workspaces button.focused {
+    color: #D3273F;
+}
+
+/* Urgent State */
+#workspaces button.urgent {
+    background-color: #D3273F;
+    color: #E6E7E9;
+}
+
+/* --- Window Title --- */
+#window {
+    /* Reverted to inherit default module color */
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+/* --- Gentoo Logo --- */
+#custom-gentoo {
+    color: #DC143C; /* Crimson Red */
+    font-size: 18px;
+    padding-right: 5px;
+    padding-left: 10px;
+}
+
+/* --- Modules Padding & Default Color --- */
+#clock,
+#battery,
+#cpu,
+#memory,
+#backlight,
+#network,
+#pulseaudio,
+#mpd,
+#custom-gentoo,
+#workspaces,
+#window {
+    padding: 0 10px;
+    color: #E6E7E9;
+}
+
+/* --- Module Specific Colors (Reverted) --- */
+
+/* Battery States */
+#battery.charging, #battery.plugged {
+    color: #26A65B;
+}
+
+#battery.critical:not(.charging) {
+    background-color: #D3273F;
+    color: #E6E7E9;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes blink {
+    to {
+        background-color: #E6E7E9;
+        color: #1D1A20;
+    }
+}
+
+/* Network States */
+#network.disconnected {
+    color: #D3273F;
+}
+
+/* PulseAudio States */
+#pulseaudio.muted {
+    color: #7a7a7a;
+}
+
+/* Tooltips */
+tooltip {
+    background: #1D1A20;
+    border: 1px solid #D3273F;
+}
+
+tooltip label {
+    color: #E6E7E9;
+}

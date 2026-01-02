@@ -1,0 +1,32 @@
+www-apps/nextcloud mysql
+# required by www-apps/nextcloud-31.0.5::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-lang/php-8.4.8 mysql
+# required by kde-plasma/libplasma-6.3.5::gentoo
+# required by kde-plasma/polkit-kde-agent-6.3.5::gentoo
+# required by kde-frameworks/kauth-6.14.0::gentoo[policykit]
+# required by kde-frameworks/kio-6.14.0::gentoo
+# required by kde-frameworks/kcmutils-6.14.0::gentoo
+# required by kde-plasma/keditfiletype-6.3.5::gentoo
+>=kde-frameworks/kconfig-6.14.0 qml
+# required by dev-libs/kirigami-addons-1.8.1::gentoo
+# required by kde-misc/kdeconnect-25.04.2-r1::gentoo
+# required by kdeconnect (argument)
+>=dev-qt/qtmultimedia-6.9.1 qml
+# required by kde-frameworks/qqc2-desktop-style-6.14.0::gentoo
+# required by dev-libs/kirigami-addons-1.8.1::gentoo
+# required by kde-misc/kdeconnect-25.04.2-r1::gentoo
+# required by kdeconnect (argument)
+>=kde-frameworks/sonnet-6.14.0 qml
+# required by kde-frameworks/kcoreaddons-6.14.0::gentoo
+# required by kde-frameworks/kcmutils-6.14.0::gentoo
+# required by kde-plasma/keditfiletype-6.3.5::gentoo
+# required by kde-frameworks/kio-6.14.0::gentoo
+# required by kde-frameworks/kparts-6.14.0::gentoo
+>=dev-qt/qtbase-6.9.1 libproxy icu
+# required by kde-frameworks/kauth-6.14.0::gentoo[policykit]
+# required by kde-frameworks/kio-6.14.0::gentoo
+# required by kde-frameworks/kcmutils-6.14.0::gentoo
+# required by kde-plasma/keditfiletype-6.3.5::gentoo
+>=sys-auth/polkit-qt-0.200.0 qt6

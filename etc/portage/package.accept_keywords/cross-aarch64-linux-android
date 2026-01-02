@@ -1,0 +1,4 @@
+cross-aarch64-linux-android/linux-headers arm64 ~arm64 -amd64 -~amd64
+cross-aarch64-linux-android/binutils arm64 ~arm64 -amd64 -~amd64
+cross-aarch64-linux-android/gcc arm64 ~arm64 -amd64 -~amd64
+cross-aarch64-linux-android/gdb arm64 ~arm64 -amd64 -~amd64

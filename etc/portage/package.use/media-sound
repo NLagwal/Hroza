@@ -1,0 +1,8 @@
+media-sound/mpd flac mpris httpd libmpdclient libsamplerate nfs fifo qobuz samba wavpack opus vorbis 
+media-sound/ncmpcpp clock outputs taglib visualizer
+media-sound/pavucontrol sound
+
+media-sound/audacity wavpack ffmpeg 
+
+media-sound/apulse sdk
+media-sound/bluez-alsa aac aptx ldac hcitop upower unwind

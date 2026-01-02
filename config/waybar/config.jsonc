@@ -1,0 +1,124 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 30,
+    "modules-left": [
+        "custom/gentoo",
+        "niri/workspaces",
+        "niri/window"
+    ],
+    "modules-center": [
+        "mpd"
+    ],
+    "modules-right": [
+        "network",
+        "cpu",
+        "memory",
+        "pulseaudio",
+        "backlight",
+        "battery",
+        "clock"
+    ],
+    "niri/workspaces": {
+        "format": "{icon}",
+        "format-icons": {
+            "active": "",
+            "default": ""
+        }
+    },
+    "niri/window": {
+        "format": "{}",
+        "separate-outputs": false,
+        "max-length": 40
+    },
+    "custom/gentoo": {
+        "format": "",
+        "tooltip": false
+    },
+    "clock": {
+        "format": "{:%H:%M}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "interval": 1
+    },
+    "mpd": {
+        "format": "<span color='#d79921'>{stateIcon}</span> {artist} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S})",
+        "format-disconnected": "Disconnected",
+        "format-stopped": "<span color='#d79921'>{stateIcon}</span> Stopped",
+        "interval": 1,
+        "on-click": "mpc toggle",
+        "on-scroll-up": "mpc volume +5",
+        "on-scroll-down": "mpc volume -5",
+        "consume-icons": {
+            "on": " "
+        },
+        "random-icons": {
+            "off": "<span color=\"#f53c3c\"></span> ",
+            "on": " "
+        },
+        "repeat-icons": {
+            "on": " "
+        },
+        "single-icons": {
+            "on": "1 "
+        },
+        "state-icons": {
+            "paused": "",
+            "playing": ""
+        },
+        "tooltip-format": "MPD (connected) - Volume: {volume}%",
+        "tooltip-format-disconnected": "MPD (disconnected)"
+    },
+    "cpu": {
+        "format": "<span color='#d79921'></span> {usage}%",
+        "on-click": "foot -e btop",
+        "tooltip": true,
+        "tooltip-format": "CPU: {usage}%"
+    },
+    "memory": {
+        "format": "<span color='#d79921'></span> {percentage}%",
+        "on-click": "foot -e btop",
+        "tooltip": true,
+        "tooltip-format": "Memory: {percentage}% used"
+    },
+    "backlight": {
+        "scroll-step": 5.0,
+        "format": "<span color='#d79921'>{icon}</span> {percent}%",
+        "format-icons": ["", "", "", "", "", "", "", "", ""],
+        "tooltip": true,
+        "tooltip-format": "Backlight: {percent}%"
+    },
+    "battery": {
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "<span color='#d79921'>{icon}</span> {capacity}%",
+        "format-charging": "<span color='#d79921'>󰂄</span> {capacity}%",
+        "format-plugged": "<span color='#d79921'></span> {capacity}%",
+        "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰂀", "󰂁", "󰂂", "󰁹"],
+        "tooltip": true,
+        "tooltip-format": "Battery: {capacity}%"
+    },
+    "network": {
+        "format-wifi": "<span color='#d79921'></span> {ipaddr}",
+        "format-ethernet": "<span color='#d79921'>󰈀</span> {ifname}",
+        "format-linked": "<span color='#d79921'>󰈀</span> {ifname}",
+        "format-disconnected": "<span color='#d79921'>󰤮</span>",
+        "on-click": "foot -e impala",
+        "tooltip-format": "{ifname} via {gwaddr}",
+        "tooltip-format-wifi": "{essid} ({signalStrength}%)  - {ipaddr}",
+        "tooltip-format-ethernet": "{ifname} 󰈀",
+        "tooltip-format-disconnected": "Disconnected"
+    },
+    "pulseaudio": {
+        "scroll-step": 5.0,
+        "format": "<span color='#d79921'>{icon}</span> {volume}%",
+        "format-muted": "<span color='#d79921'>󰝟</span>",
+        "format-icons": {
+            "default": ["", "", ""]
+        },
+        "on-click": "foot -e pulsemixer",
+        "tooltip": true,
+        "tooltip-format": "Volume: {volume}%"
+    }
+}

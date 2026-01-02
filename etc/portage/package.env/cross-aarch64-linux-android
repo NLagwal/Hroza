@@ -1,0 +1,4 @@
+cross-aarch64-linux-android/linux-headers cross-aarch64-linux-android/linux-headers.conf
+cross-aarch64-linux-android/binutils cross-aarch64-linux-android/binutils.conf
+cross-aarch64-linux-android/gcc cross-aarch64-linux-android/gcc.conf
+cross-aarch64-linux-android/gdb cross-aarch64-linux-android/gdb.conf

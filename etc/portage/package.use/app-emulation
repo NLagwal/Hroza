@@ -1,0 +1,6 @@
+app-emulation/virt-manager gui
+app-emulation/libvirt fuse libssh libssh2 pcap virtiofsd wireshark-plugins policykit
+app-emulation/qemu fuse nfs plugins spice usbredir usb ssh virgl gtk plugins opengl X 
+
+
+app-emulation/winetricks gui

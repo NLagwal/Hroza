@@ -1,0 +1,6 @@
+x11-libs/gtk+ X
+x11-libs/cairo X
+media-libs/libglvnd X
+media-libs/mesa X
+dev-cpp/gtkmm X
+dev-cpp/cairomm X

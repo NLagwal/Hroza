@@ -1,0 +1,6 @@
+#net-libs/nodejs mid-mem.conf
+dev-qt/qtwebengine low-mem.conf
+net-libs/webkit-gtk vlow-mem.conf
+
+#www-client/librewolf mid-mem.conf
+media-libs/embree vlow-mem.conf

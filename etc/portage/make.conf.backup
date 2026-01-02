@@ -1,0 +1,31 @@
+# Please consult /usr/share/portage/config/make.conf.example for a more
+# detailed example.
+COMMON_FLAGS="-O2 -pipe -march=alderlake -mabm -mno-cldemote -mno-kl -mno-pconfig -mno-sgx -mno-widekl -mshstk --param=l1-cache-line-size=64 --param=l1-cache-size=32 --param=l2-cache-size=36864"
+CFLAGS="${COMMON_FLAGS}"
+CXXFLAGS="${COMMON_FLAGS}"
+FCFLAGS="${COMMON_FLAGS}"
+FFLAGS="${COMMON_FLAGS}"
+RUSTFLAGS="${RUSTFLAGS} -C target-cpu=native"
+
+LC_MESSAGES=C.utf8
+#EMERGE_DEFAULT_OPTS="--jobs=5 --keep-going"
+EMERGE_DEFAULT_OPTS="--verbose --keep-going"
+MAKEOPTS="-j16 -l24"
+FEATURES="parallel-fetch parallel-install candy pid-sandbox sandbox network-sandbox buildpkg"
+USE=	"-gtk -qt -qt5 -qt6 -kde -gnome X wayland elogind bluetooth dbus
+-systemd verify-sig modules-sign modules-compress evdev egl nvenc cuda nvidia opencl
+opengl vulkan vulkan-overlay pipewire pulseaudio alsa dbus man vpx screencast
+udev udisks mtp "
+
+VIDEO_CARDS="nvidia intel"
+
+
+ACCEPT_LICENSE="*"
+ACCEPT_KEYWORDS=" ~amd64"
+MODULES_SIGN_KEY="/usr/src/kernel_key.pem"
+MODULES_SIGN_CERT="/usr/src/kernel_key.pem"
+ABI_X86="64 32"
+PKGDIR="/var/pkg"
+QEMU_SOFTMMU_TARGETS="arm x86_64 sparc"
+QEMU_USER_TARGETS="x86_64"
+GRUB_PLATFORMS="efi-64"

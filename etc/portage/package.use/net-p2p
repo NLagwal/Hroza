@@ -1,0 +1,36 @@
+net-p2p/transmission cli gtk
+net-p2p/deluge console webinterface appindicator gui libnotify sound 
+>=dev-libs/boost-1.88.0-r1 python python_targets_python3_11
+# required by media-sound/ncmpcpp-0.10.1-r1::gentoo
+# required by ncmpcpp (argument)
+>=dev-libs/boost-1.88.0-r1 icu
+# required by dev-libs/libayatana-appindicator-0.5.93::gentoo
+# required by net-p2p/transmission-4.0.6-r5::gentoo[gtk,appindicator]
+# required by transmission (argument)
+>=dev-libs/libdbusmenu-16.04.0-r2 gtk3
+# required by net-vpn/i2p-2.8.2::gentoo
+# required by i2p (argument)
+>=sys-devel/gettext-0.23.1-r1 java
+# required by www-apps/jellyfin-bin-10.11.0_rc1::gentoo
+# required by www-apps/jellyfin-bin (argument)
+>=media-video/ffmpeg-7.1.1-r1 x264
+# required by net-misc/nextcloud-client-3.16.5::gentoo
+# required by nextcloud-client (argument)
+>=dev-libs/qtkeychain-0.15.0 qt6
+# required by net-misc/nextcloud-client-3.16.5::gentoo
+# required by nextcloud-client (argument)
+>=dev-qt/qt5compat-6.9.1 qml
+# required by virtual/httpd-php-8.4::gentoo
+# required by www-apps/nextcloud-31.0.5::gentoo
+# required by nextcloud (argument)
+>=dev-lang/php-8.4.8 sqlite truetype fpm
+# required by dev-lang/php-8.4.8::gentoo[gd]
+# required by virtual/httpd-php-8.4::gentoo
+# required by www-apps/nextcloud-31.0.5::gentoo
+# required by nextcloud (argument)
+>=media-libs/gd-2.3.3-r4 truetype
+# required by dev-lang/php-8.4.8::gentoo
+# required by virtual/httpd-php-8.4::gentoo
+# required by www-apps/nextcloud-31.0.5::gentoo
+# required by nextcloud (argument)
+>=app-eselect/eselect-php-0.9.9 fpm

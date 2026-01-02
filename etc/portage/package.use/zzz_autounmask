@@ -1,0 +1,748 @@
+# required by www-client/librewolf-142.0.1_p1::librewolf[system-libvpx]
+# required by @selected
+# required by @world (argument)
+>=media-libs/libvpx-1.15.2 postproc
+# required by media-gfx/krita-5.2.11::gentoo
+# required by krita (argument)
+>=dev-libs/quazip-1.4-r1 qt5
+# required by media-gfx/krita-5.2.11::gentoo[python_single_target_python3_13]
+# required by krita (argument)
+>=dev-python/pyqt5-5.15.11 declarative widgets gui network
+# required by kde-frameworks/kauth-6.17.0::gentoo[policykit]
+# required by kde-frameworks/kio-6.17.0::gentoo
+# required by kde-plasma/libplasma-6.4.4::gentoo
+# required by kde-plasma/polkit-kde-agent-6.4.4::gentoo
+# required by kde-frameworks/kauth-5.116.0::gentoo[policykit]
+# required by kde-frameworks/kconfigwidgets-5.116.0::gentoo
+# required by kde-frameworks/kiconthemes-5.116.0::gentoo
+# required by kde-frameworks/kxmlgui-5.116.0::gentoo
+# required by media-gfx/krita-5.2.11::gentoo
+# required by krita (argument)
+>=kde-frameworks/kwindowsystem-6.17.0 wayland
+# required by dev-qt/qtwayland-6.9.2::gentoo
+# required by kde-plasma/libplasma-6.4.4::gentoo
+# required by kde-plasma/polkit-kde-agent-6.4.4::gentoo
+# required by kde-frameworks/kauth-5.116.0::gentoo[policykit]
+# required by kde-frameworks/kconfigwidgets-5.116.0::gentoo
+# required by kde-frameworks/kiconthemes-5.116.0::gentoo
+# required by kde-frameworks/kxmlgui-5.116.0::gentoo
+# required by media-gfx/krita-5.2.11::gentoo
+# required by krita (argument)
+>=dev-qt/qtbase-6.9.2 wayland
+# required by kde-frameworks/kauth-5.116.0::gentoo[policykit]
+# required by kde-frameworks/kconfigwidgets-5.116.0::gentoo
+# required by kde-frameworks/kiconthemes-5.116.0::gentoo
+# required by kde-frameworks/kxmlgui-5.116.0::gentoo
+# required by media-gfx/krita-5.2.11::gentoo
+# required by krita (argument)
+>=sys-auth/polkit-qt-0.200.0 qt5
+# required by kde-frameworks/kcoreaddons-5.116.0::gentoo
+# required by kde-frameworks/kcrash-5.116.0::gentoo
+# required by kde-frameworks/kglobalaccel-5.116.0-r2::gentoo
+# required by kde-frameworks/kxmlgui-5.116.0::gentoo
+# required by media-gfx/krita-5.2.11::gentoo
+# required by krita (argument)
+>=dev-qt/qtcore-5.15.17 icu
+# required by media-gfx/blender-4.4.3::gentoo
+# required by blender (argument)
+>=media-libs/freetype-2.13.3 brotli
+# required by media-gfx/blender-4.4.3::gentoo[bullet]
+# required by blender (argument)
+>=sci-physics/bullet-3.21 double-precision
+# required by media-gfx/blender-4.4.3::gentoo[ffmpeg]
+# required by blender (argument)
+>=media-video/ffmpeg-7.1.1-r2 lame vorbis xvid theora opus
+# required by media-gfx/blender-4.4.3::gentoo[fftw]
+# required by blender (argument)
+>=sci-libs/fftw-3.3.10-r1 threads
+# required by media-gfx/blender-4.4.3::gentoo[opensubdiv]
+# required by blender (argument)
+>=media-libs/opensubdiv-3.6.1 tbb
+# required by media-libs/gegl-0.4.62::gentoo
+# required by media-gfx/gimp-3.0.4-r1::gentoo
+# required by gimp (argument)
+>=media-libs/babl-0.1.114 introspection lcms
+# required by media-gfx/gimp-3.0.4-r1::gentoo
+# required by gimp (argument)
+>=media-libs/gegl-0.4.62 introspection cairo lcms
+# required by media-gfx/gimp-3.0.4-r1::gentoo[lua_single_target_luajit,lua]
+# required by gimp (argument)
+>=dev-lua/lgi-0.9.2-r100 lua_targets_luajit
+# required by media-libs/sdl2-ttf-2.24.0::gentoo
+# required by dev-python/pygame-2.6.1::gentoo
+# required by net-p2p/deluge-2.2.0::gentoo[gui,python_single_target_python3_13,sound]
+# required by @selected
+# required by @world (argument)
+>=media-libs/freetype-2.13.3 harfbuzz
+# required by app-text/zathura-pdf-poppler-0.3.3::gentoo
+# required by app-text/zathura-meta-0-r1::gentoo[-epub,pdf]
+# required by @selected
+# required by @world (argument)
+>=app-text/poppler-25.09.1 cairo
+# required by dev-qt/qtwebengine-6.9.2-r1::gentoo
+# required by dev-python/pyqt6-webengine-6.9.0::gentoo
+# required by www-client/qutebrowser-3.5.1::gentoo[python_single_target_python3_13]
+# required by @selected
+# required by @world (argument)
+>=dev-libs/libxml2-2.13.9 icu
+# required by dev-python/jaraco-context-6.0.1-r1::gentoo
+# required by dev-python/jaraco-text-4.0.0::gentoo
+# required by dev-python/jaraco-collections-5.2.1::gentoo
+# required by dev-python/setuptools-80.9.0-r1::gentoo
+# required by dev-python/setuptools-scm-9.2.0::gentoo
+# required by dev-python/hatch-vcs-0.5.0::gentoo
+# required by dev-python/urllib3-2.5.0::gentoo
+# required by dev-python/requests-2.32.5::gentoo
+# required by app-portage/gemato-20.6::gentoo[gpg]
+# required by net-libs/libnftnl-1.3.0::gentoo[verify-sig]
+# required by net-firewall/nftables-1.1.5::gentoo
+# required by net-misc/networkmanager-1.52.1::gentoo[nftables,connection-sharing]
+# required by www-client/librewolf-143.0_p1::librewolf[wifi]
+# required by librewolf (argument)
+>=dev-python/gpep517-19 python_targets_python3_11
+# required by net-firewall/nftables-1.1.5::gentoo[python]
+# required by net-misc/networkmanager-1.52.1::gentoo[nftables,connection-sharing]
+# required by www-client/librewolf-143.0_p1::librewolf[wifi]
+# required by librewolf (argument)
+>=dev-python/setuptools-80.9.0-r1 python_targets_python3_11
+# required by dev-python/setuptools-80.9.0-r1::gentoo
+# required by dev-python/setuptools-scm-9.2.0::gentoo
+# required by dev-python/hatch-vcs-0.5.0::gentoo
+# required by dev-python/urllib3-2.5.0::gentoo
+# required by dev-python/requests-2.32.5::gentoo
+# required by app-portage/gemato-20.6::gentoo[gpg]
+# required by net-libs/libnftnl-1.3.0::gentoo[verify-sig]
+# required by net-firewall/nftables-1.1.5::gentoo
+# required by net-misc/networkmanager-1.52.1::gentoo[nftables,connection-sharing]
+# required by www-client/librewolf-143.0_p1::librewolf[wifi]
+# required by librewolf (argument)
+>=dev-python/jaraco-collections-5.2.1 python_targets_python3_11
+# required by dev-python/setuptools-80.9.0-r1::gentoo
+# required by dev-python/setuptools-scm-9.2.0::gentoo
+# required by dev-python/hatch-vcs-0.5.0::gentoo
+# required by dev-python/urllib3-2.5.0::gentoo
+# required by dev-python/requests-2.32.5::gentoo
+# required by app-portage/gemato-20.6::gentoo[gpg]
+# required by net-libs/libnftnl-1.3.0::gentoo[verify-sig]
+# required by net-firewall/nftables-1.1.5::gentoo
+# required by net-misc/networkmanager-1.52.1::gentoo[nftables,connection-sharing]
+# required by www-client/librewolf-143.0_p1::librewolf[wifi]
+# required by librewolf (argument)
+>=dev-python/jaraco-functools-4.3.0 python_targets_python3_11
+# required by dev-python/setuptools-80.9.0-r1::gentoo
+# required by dev-python/setuptools-scm-9.2.0::gentoo
+# required by dev-python/hatch-vcs-0.5.0::gentoo
+# required by dev-python/urllib3-2.5.0::gentoo
+# required by dev-python/requests-2.32.5::gentoo
+# required by app-portage/gemato-20.6::gentoo[gpg]
+# required by net-libs/libnftnl-1.3.0::gentoo[verify-sig]
+# required by net-firewall/nftables-1.1.5::gentoo
+# required by net-misc/networkmanager-1.52.1::gentoo[nftables,connection-sharing]
+# required by www-client/librewolf-143.0_p1::librewolf[wifi]
+# required by librewolf (argument)
+>=dev-python/jaraco-text-4.0.0 python_targets_python3_11
+# required by dev-python/setuptools-80.9.0-r1::gentoo
+# required by dev-python/setuptools-scm-9.2.0::gentoo
+# required by dev-python/hatch-vcs-0.5.0::gentoo
+# required by dev-python/urllib3-2.5.0::gentoo
+# required by dev-python/requests-2.32.5::gentoo
+# required by app-portage/gemato-20.6::gentoo[gpg]
+# required by net-libs/libnftnl-1.3.0::gentoo[verify-sig]
+# required by net-firewall/nftables-1.1.5::gentoo
+# required by net-misc/networkmanager-1.52.1::gentoo[nftables,connection-sharing]
+# required by www-client/librewolf-143.0_p1::librewolf[wifi]
+# required by librewolf (argument)
+>=dev-python/more-itertools-10.8.0 python_targets_python3_11
+# required by dev-python/setuptools-80.9.0-r1::gentoo
+# required by dev-python/setuptools-scm-9.2.0::gentoo
+# required by dev-python/hatch-vcs-0.5.0::gentoo
+# required by dev-python/urllib3-2.5.0::gentoo
+# required by dev-python/requests-2.32.5::gentoo
+# required by app-portage/gemato-20.6::gentoo[gpg]
+# required by net-libs/libnftnl-1.3.0::gentoo[verify-sig]
+# required by net-firewall/nftables-1.1.5::gentoo
+# required by net-misc/networkmanager-1.52.1::gentoo[nftables,connection-sharing]
+# required by www-client/librewolf-143.0_p1::librewolf[wifi]
+# required by librewolf (argument)
+>=dev-python/packaging-25.0 python_targets_python3_11
+# required by dev-python/setuptools-80.9.0-r1::gentoo
+# required by dev-python/setuptools-scm-9.2.0::gentoo
+# required by dev-python/hatch-vcs-0.5.0::gentoo
+# required by dev-python/urllib3-2.5.0::gentoo
+# required by dev-python/requests-2.32.5::gentoo
+# required by app-portage/gemato-20.6::gentoo[gpg]
+# required by net-libs/libnftnl-1.3.0::gentoo[verify-sig]
+# required by net-firewall/nftables-1.1.5::gentoo
+# required by net-misc/networkmanager-1.52.1::gentoo[nftables,connection-sharing]
+# required by www-client/librewolf-143.0_p1::librewolf[wifi]
+# required by librewolf (argument)
+>=dev-python/platformdirs-4.4.0 python_targets_python3_11
+# required by dev-python/setuptools-80.9.0-r1::gentoo
+# required by dev-python/setuptools-scm-9.2.0::gentoo
+# required by dev-python/hatch-vcs-0.5.0::gentoo
+# required by dev-python/urllib3-2.5.0::gentoo
+# required by dev-python/requests-2.32.5::gentoo
+# required by app-portage/gemato-20.6::gentoo[gpg]
+# required by net-libs/libnftnl-1.3.0::gentoo[verify-sig]
+# required by net-firewall/nftables-1.1.5::gentoo
+# required by net-misc/networkmanager-1.52.1::gentoo[nftables,connection-sharing]
+# required by www-client/librewolf-143.0_p1::librewolf[wifi]
+# required by librewolf (argument)
+>=dev-python/wheel-0.45.1 python_targets_python3_11
+# required by dev-python/setuptools-80.9.0-r1::gentoo
+# required by net-firewall/nftables-1.1.5::gentoo[python]
+# required by net-misc/networkmanager-1.52.1::gentoo[nftables,connection-sharing]
+# required by www-client/librewolf-143.0_p1::librewolf[wifi]
+# required by librewolf (argument)
+>=dev-python/setuptools-scm-9.2.0 python_targets_python3_11
+# required by dev-python/setuptools-80.9.0-r1::gentoo
+# required by dev-python/setuptools-scm-9.2.0::gentoo
+# required by dev-python/hatch-vcs-0.5.0::gentoo
+# required by dev-python/urllib3-2.5.0::gentoo
+# required by dev-python/requests-2.32.5::gentoo
+# required by app-portage/gemato-20.6::gentoo[gpg]
+# required by net-libs/libnftnl-1.3.0::gentoo[verify-sig]
+# required by net-firewall/nftables-1.1.5::gentoo
+# required by net-misc/networkmanager-1.52.1::gentoo[nftables,connection-sharing]
+# required by www-client/librewolf-143.0_p1::librewolf[wifi]
+# required by librewolf (argument)
+>=dev-python/trove-classifiers-2025.9.11.17 python_targets_python3_11
+# required by dev-python/more-itertools-10.8.0::gentoo
+# required by dev-python/jaraco-functools-4.3.0::gentoo
+# required by dev-python/jaraco-text-4.0.0::gentoo
+# required by dev-python/jaraco-collections-5.2.1::gentoo
+# required by dev-python/setuptools-80.9.0-r1::gentoo
+# required by dev-python/setuptools-scm-9.2.0::gentoo
+# required by dev-python/hatch-vcs-0.5.0::gentoo
+# required by dev-python/urllib3-2.5.0::gentoo
+# required by dev-python/requests-2.32.5::gentoo
+# required by app-portage/gemato-20.6::gentoo[gpg]
+# required by net-libs/libnftnl-1.3.0::gentoo[verify-sig]
+# required by net-firewall/nftables-1.1.5::gentoo
+# required by net-misc/networkmanager-1.52.1::gentoo[nftables,connection-sharing]
+# required by www-client/librewolf-143.0_p1::librewolf[wifi]
+# required by librewolf (argument)
+>=dev-python/flit-core-3.12.0 python_targets_python3_11
+# required by dev-python/jaraco-text-4.0.0::gentoo
+# required by dev-python/jaraco-collections-5.2.1::gentoo
+# required by dev-python/setuptools-80.9.0-r1::gentoo
+# required by dev-python/setuptools-scm-9.2.0::gentoo
+# required by dev-python/hatch-vcs-0.5.0::gentoo
+# required by dev-python/urllib3-2.5.0::gentoo
+# required by dev-python/requests-2.32.5::gentoo
+# required by app-portage/gemato-20.6::gentoo[gpg]
+# required by net-libs/libnftnl-1.3.0::gentoo[verify-sig]
+# required by net-firewall/nftables-1.1.5::gentoo
+# required by net-misc/networkmanager-1.52.1::gentoo[nftables,connection-sharing]
+# required by www-client/librewolf-143.0_p1::librewolf[wifi]
+# required by librewolf (argument)
+>=dev-python/jaraco-context-6.0.1-r1 python_targets_python3_11
+# required by dev-python/jaraco-context-6.0.1-r1::gentoo[python_targets_python3_11,-python_targets_pypy3_11]
+# required by dev-python/jaraco-text-4.0.0::gentoo
+# required by dev-python/jaraco-collections-5.2.1::gentoo
+# required by dev-python/setuptools-80.9.0-r1::gentoo
+# required by dev-python/setuptools-scm-9.2.0::gentoo
+# required by dev-python/hatch-vcs-0.5.0::gentoo
+# required by dev-python/urllib3-2.5.0::gentoo
+# required by dev-python/requests-2.32.5::gentoo
+# required by app-portage/gemato-20.6::gentoo[gpg]
+# required by net-libs/libnftnl-1.3.0::gentoo[verify-sig]
+# required by net-firewall/nftables-1.1.5::gentoo
+# required by net-misc/networkmanager-1.52.1::gentoo[nftables,connection-sharing]
+# required by www-client/librewolf-143.0_p1::librewolf[wifi]
+# required by librewolf (argument)
+>=dev-python/backports-tarfile-1.2.0 python_targets_python3_11
+# required by dev-python/gpep517-19::gentoo
+# required by dev-python/jaraco-collections-5.2.1::gentoo
+# required by dev-python/setuptools-80.9.0-r1::gentoo
+# required by dev-python/setuptools-scm-9.2.0::gentoo
+# required by dev-python/hatch-vcs-0.5.0::gentoo
+# required by dev-python/urllib3-2.5.0::gentoo
+# required by dev-python/requests-2.32.5::gentoo
+# required by app-portage/gemato-20.6::gentoo[gpg]
+# required by net-libs/libnftnl-1.3.0::gentoo[verify-sig]
+# required by net-firewall/nftables-1.1.5::gentoo
+# required by net-misc/networkmanager-1.52.1::gentoo[nftables,connection-sharing]
+# required by www-client/librewolf-143.0_p1::librewolf[wifi]
+# required by librewolf (argument)
+>=dev-python/installer-0.7.0 python_targets_python3_11
+# required by dev-python/argcomplete-3.6.2::gentoo
+# required by app-emulation/virt-manager-5.1.0::gentoo[python_single_target_python3_13]
+# required by virt-manager (argument)
+>=dev-python/hatch-vcs-0.5.0 python_targets_python3_11
+# required by dev-python/hatch-vcs-0.5.0::gentoo
+# required by dev-python/argcomplete-3.6.2::gentoo
+# required by app-emulation/virt-manager-5.1.0::gentoo[python_single_target_python3_13]
+# required by virt-manager (argument)
+>=dev-python/hatchling-1.27.0 python_targets_python3_11
+# required by dev-python/hatchling-1.27.0::gentoo
+# required by dev-python/hatch-vcs-0.5.0::gentoo
+# required by dev-python/argcomplete-3.6.2::gentoo
+# required by app-emulation/virt-manager-5.1.0::gentoo[python_single_target_python3_13]
+# required by virt-manager (argument)
+>=dev-python/editables-0.5 python_targets_python3_11
+# required by dev-python/hatchling-1.27.0::gentoo
+# required by dev-python/hatch-vcs-0.5.0::gentoo
+# required by dev-python/argcomplete-3.6.2::gentoo
+# required by app-emulation/virt-manager-5.1.0::gentoo[python_single_target_python3_13]
+# required by virt-manager (argument)
+>=dev-python/pathspec-0.12.1 python_targets_python3_11
+# required by dev-python/hatchling-1.27.0::gentoo
+# required by dev-python/hatch-vcs-0.5.0::gentoo
+# required by dev-python/argcomplete-3.6.2::gentoo
+# required by app-emulation/virt-manager-5.1.0::gentoo[python_single_target_python3_13]
+# required by virt-manager (argument)
+>=dev-python/pluggy-1.6.0 python_targets_python3_11
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by ProtonUp-Qt (argument)
+>=dev-python/pyside-6.9.2 uitools
+# required by games-util/lutris-0.5.19::gentoo
+# required by lutris (argument)
+>=x11-libs/gdk-pixbuf-2.42.12 jpeg
+# required by net-libs/webkit-gtk-2.48.5-r411::gentoo
+# required by games-util/lutris-0.5.19::gentoo
+# required by lutris (argument)
+>=media-libs/harfbuzz-11.5.1 icu
+# required by dev-python/pyqt6-webengine-6.9.0::gentoo
+# required by www-client/qutebrowser-3.5.1::gentoo[python_single_target_python3_13]
+# required by qutebrowser (argument)
+>=dev-python/pyqt6-6.9.1 qml webchannel
+# required by sci-geosciences/qgis-3.42.3::gentoo
+# required by qgis (argument)
+>=dev-qt/qttools-6.9.3 designer
+# required by sci-geosciences/qgis-3.42.3::gentoo
+# required by qgis (argument)
+>=sci-libs/gdal-3.11.4 spatialite sqlite geos
+# required by sci-geosciences/qgis-3.42.3::gentoo
+# required by qgis (argument)
+>=x11-libs/qwt-6.2.0-r4 polar qt6 svg
+# required by net-wireless/aircrack-ng-1.7-r3::pentoo[airdrop-ng]
+# required by aircrack-ng (argument)
+>=net-wireless/lorcon-2020.06.06_p20220216-r3 python
+# required by app-admin/pass-1.7.4-r2::gentoo
+# required by pass (argument)
+>=media-gfx/qrencode-4.1.1-r1 png
+# required by dev-libs/libappindicator-12.10.1_p20200706-r1::steam-overlay
+# required by games-util/steam-launcher-1.0.0.82-r1::steam-overlay[-steamruntime,trayicon]
+# required by @selected
+# required by @world (argument)
+>=dev-libs/libdbusmenu-16.04.0-r3 gtk
+# required by app-text/calibre-8.9.0::gentoo[python_single_target_python3_13]
+# required by calibre (argument)
+>=dev-python/pillow-12.0.0 webp truetype
+# required by app-text/calibre-8.9.0::gentoo[python_single_target_python3_13]
+# required by calibre (argument)
+>=dev-python/pyqt6-6.9.1 quick svg
+# required by sys-boot/os-prober-1.82::gentoo
+# required by os-prober (argument)
+>=sys-boot/grub-2.12-r7 mount
+# required by net-im/telegram-desktop-bin-6.2.4::gentoo
+# required by telegram-desktop-bin (argument)
+>=x11-libs/gtk+-3.24.51 wayland
+# required by x11-libs/gtk+-3.24.51::gentoo[wayland]
+# required by net-im/telegram-desktop-bin-6.2.4::gentoo
+# required by telegram-desktop-bin (argument)
+>=media-libs/mesa-25.2.5 wayland
+# required by app-office/libreoffice-25.2.6.2::gentoo
+# required by libreoffice (argument)
+>=dev-libs/xmlsec-1.3.7-r1 nss
+# required by app-office/libreoffice-25.2.6.2::gentoo[gtk4]
+# required by libreoffice (argument)
+>=gui-libs/gtk-4.20.2 wayland
+# required by gui-libs/gtk-4.20.2::gentoo[vulkan]
+# required by app-office/libreoffice-25.2.6.2::gentoo[gtk4]
+# required by libreoffice (argument)
+>=media-libs/vulkan-loader-1.4.328.0 wayland
+# required by dev-qt/qtwebengine-6.9.3::gentoo
+# required by dev-python/pyqt6-webengine-6.9.0::gentoo
+# required by www-client/qutebrowser-3.6.1::gentoo[python_single_target_python3_13]
+# required by @selected
+# required by @world (argument)
+>=virtual/zlib-1.3.1 minizip
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_12]
+# required by legendary (argument)
+>=dev-python/filelock-3.20.0 python_targets_python3_12
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_12]
+# required by legendary (argument)
+>=dev-python/requests-2.32.5 python_targets_python3_12
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_12,webview]
+# required by legendary (argument)
+>=dev-python/pywebview-5.1-r2 gtk python_targets_python3_12
+# required by dev-python/hatchling-1.27.0::gentoo
+# required by dev-python/filelock-3.20.0::gentoo
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_12]
+# required by legendary (argument)
+>=dev-python/gpep517-19 python_targets_python3_12
+# required by dev-python/pywebview-5.1-r2::guru
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_12,webview]
+# required by legendary (argument)
+>=dev-python/setuptools-80.9.0-r1 python_targets_python3_12
+# required by dev-python/setuptools-80.9.0-r1::gentoo
+# required by dev-python/certifi-3024.7.22::gentoo
+# required by dev-python/requests-2.32.5::gentoo
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_12]
+# required by legendary (argument)
+>=dev-python/jaraco-collections-5.2.1 python_targets_python3_12
+# required by dev-python/setuptools-80.9.0-r1::gentoo
+# required by dev-python/certifi-3024.7.22::gentoo
+# required by dev-python/requests-2.32.5::gentoo
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_12]
+# required by legendary (argument)
+>=dev-python/jaraco-functools-4.3.0 python_targets_python3_12
+# required by dev-python/setuptools-80.9.0-r1::gentoo
+# required by dev-python/certifi-3024.7.22::gentoo
+# required by dev-python/requests-2.32.5::gentoo
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_12]
+# required by legendary (argument)
+>=dev-python/jaraco-text-4.0.0 python_targets_python3_12
+# required by dev-python/setuptools-80.9.0-r1::gentoo
+# required by dev-python/certifi-3024.7.22::gentoo
+# required by dev-python/requests-2.32.5::gentoo
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_12]
+# required by legendary (argument)
+>=dev-python/more-itertools-10.8.0 python_targets_python3_12
+# required by dev-python/hatchling-1.27.0::gentoo
+# required by dev-python/filelock-3.20.0::gentoo
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_12]
+# required by legendary (argument)
+>=dev-python/packaging-25.0 python_targets_python3_12
+# required by dev-python/setuptools-80.9.0-r1::gentoo
+# required by dev-python/certifi-3024.7.22::gentoo
+# required by dev-python/requests-2.32.5::gentoo
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_12]
+# required by legendary (argument)
+>=dev-python/platformdirs-4.5.0 python_targets_python3_12
+# required by dev-python/setuptools-80.9.0-r1::gentoo
+# required by dev-python/certifi-3024.7.22::gentoo
+# required by dev-python/requests-2.32.5::gentoo
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_12]
+# required by legendary (argument)
+>=dev-python/wheel-0.45.1 python_targets_python3_12
+# required by dev-python/hatch-vcs-0.5.0::gentoo
+# required by dev-python/filelock-3.20.0::gentoo
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_12]
+# required by legendary (argument)
+>=dev-python/setuptools-scm-9.2.2 python_targets_python3_12
+# required by dev-python/setuptools-80.9.0-r1::gentoo
+# required by dev-python/certifi-3024.7.22::gentoo
+# required by dev-python/requests-2.32.5::gentoo
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_12]
+# required by legendary (argument)
+>=dev-python/trove-classifiers-2025.9.11.17 python_targets_python3_12
+# required by dev-python/trove-classifiers-2025.9.11.17::gentoo
+# required by dev-python/hatchling-1.27.0::gentoo
+# required by dev-python/filelock-3.20.0::gentoo
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_12]
+# required by legendary (argument)
+>=dev-python/flit-core-3.12.0 python_targets_python3_12
+# required by dev-python/jaraco-text-4.0.0::gentoo
+# required by dev-python/jaraco-collections-5.2.1::gentoo
+# required by dev-python/setuptools-80.9.0-r1::gentoo
+# required by dev-python/certifi-3024.7.22::gentoo
+# required by dev-python/requests-2.32.5::gentoo
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_12]
+# required by legendary (argument)
+>=dev-python/jaraco-context-6.0.1-r1 python_targets_python3_12
+# required by dev-python/gpep517-19::gentoo
+# required by dev-python/filelock-3.20.0::gentoo
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_12]
+# required by legendary (argument)
+>=dev-python/installer-0.7.0 python_targets_python3_12
+# required by dev-python/pywebview-5.1-r2::guru
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_12,webview]
+# required by legendary (argument)
+>=dev-python/bottle-0.13.4 python_targets_python3_12
+# required by dev-python/pywebview-5.1-r2::guru
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_12,webview]
+# required by legendary (argument)
+>=dev-python/cryptography-46.0.3 python_targets_python3_12
+# required by dev-python/pywebview-5.1-r2::guru
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_12,webview]
+# required by legendary (argument)
+>=dev-python/proxy_tools-0.1.0_p1 python_targets_python3_12
+# required by dev-python/pywebview-5.1-r2::guru[gtk]
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_12,webview]
+# required by legendary (argument)
+>=dev-python/pygobject-3.50.1 python_targets_python3_12
+# required by dev-python/pygobject-3.50.1::gentoo[cairo]
+# required by dev-python/pywebview-5.1-r2::guru[gtk]
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_12,webview]
+# required by legendary (argument)
+>=dev-python/pycairo-1.28.0 python_targets_python3_12
+# required by dev-python/cryptography-46.0.3::gentoo[-test,python_targets_python3_13,python_targets_python3_12,-python_targets_python3_11,-python_targets_python3_14]
+# required by dev-python/pywebview-5.1-r2::guru
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_12,webview]
+# required by legendary (argument)
+>=dev-python/cffi-2.0.0 python_targets_python3_12
+# required by dev-python/cryptography-46.0.3::gentoo
+# required by dev-python/pywebview-5.1-r2::guru
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_12,webview]
+# required by legendary (argument)
+>=dev-util/maturin-1.9.6 python_targets_python3_12
+# required by dev-python/cffi-2.0.0::gentoo[-test]
+# required by dev-python/cryptography-46.0.3::gentoo[-test,python_targets_python3_13,python_targets_python3_12,-python_targets_python3_11,-python_targets_python3_14]
+# required by dev-python/pywebview-5.1-r2::guru
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_12,webview]
+# required by legendary (argument)
+>=dev-python/pycparser-2.23 python_targets_python3_12
+# required by dev-python/pycparser-2.23::gentoo[-test]
+# required by dev-python/cffi-2.0.0::gentoo[-test]
+# required by dev-python/cryptography-46.0.3::gentoo[-test,python_targets_python3_13,python_targets_python3_12,-python_targets_python3_11,-python_targets_python3_14]
+# required by dev-python/pywebview-5.1-r2::guru
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_12,webview]
+# required by legendary (argument)
+>=dev-python/ply-3.11-r2 python_targets_python3_12
+# required by dev-python/requests-2.32.5::gentoo
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_12]
+# required by legendary (argument)
+>=dev-python/certifi-3024.7.22 python_targets_python3_12
+# required by dev-python/requests-2.32.5::gentoo
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_12]
+# required by legendary (argument)
+>=dev-python/charset-normalizer-3.4.4 python_targets_python3_12
+# required by dev-python/requests-2.32.5::gentoo
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_12]
+# required by legendary (argument)
+>=dev-python/idna-3.11 python_targets_python3_12
+# required by dev-python/requests-2.32.5::gentoo
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_12]
+# required by legendary (argument)
+>=dev-python/urllib3-2.5.0 python_targets_python3_12
+# required by dev-python/urllib3-2.5.0::gentoo
+# required by dev-python/requests-2.32.5::gentoo
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_12]
+# required by legendary (argument)
+>=dev-python/pysocks-1.7.1-r2 python_targets_python3_12
+# required by dev-python/urllib3-2.5.0::gentoo
+# required by dev-python/requests-2.32.5::gentoo
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_12]
+# required by legendary (argument)
+>=dev-python/hatch-vcs-0.5.0 python_targets_python3_12
+# required by dev-python/hatch-vcs-0.5.0::gentoo
+# required by dev-python/filelock-3.20.0::gentoo
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_12]
+# required by legendary (argument)
+>=dev-python/hatchling-1.27.0 python_targets_python3_12
+# required by dev-python/hatchling-1.27.0::gentoo
+# required by dev-python/filelock-3.20.0::gentoo
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_12]
+# required by legendary (argument)
+>=dev-python/editables-0.5 python_targets_python3_12
+# required by dev-python/hatchling-1.27.0::gentoo
+# required by dev-python/filelock-3.20.0::gentoo
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_12]
+# required by legendary (argument)
+>=dev-python/pathspec-0.12.1 python_targets_python3_12
+# required by dev-python/hatchling-1.27.0::gentoo
+# required by dev-python/filelock-3.20.0::gentoo
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_12]
+# required by legendary (argument)
+>=dev-python/pluggy-1.6.0 python_targets_python3_12
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_11]
+# required by @selected
+# required by @world (argument)
+>=dev-python/filelock-3.20.0 python_targets_python3_11
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_11]
+# required by @selected
+# required by @world (argument)
+>=dev-python/requests-2.32.5 python_targets_python3_11
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_11,webview]
+# required by @selected
+# required by @world (argument)
+>=dev-python/pywebview-5.1-r2 python_targets_python3_11
+# required by dev-python/pywebview-5.1-r2::guru
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_11,webview]
+# required by @selected
+# required by @world (argument)
+>=dev-python/bottle-0.13.4 python_targets_python3_11
+# required by dev-python/pywebview-5.1-r2::guru
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_11,webview]
+# required by @selected
+# required by @world (argument)
+>=dev-python/cryptography-46.0.3 python_targets_python3_11
+# required by dev-python/pywebview-5.1-r2::guru
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_11,webview]
+# required by @selected
+# required by @world (argument)
+>=dev-python/proxy_tools-0.1.0_p1 python_targets_python3_11
+# required by dev-python/pywebview-5.1-r2::guru[gtk]
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_11,webview]
+# required by @selected
+# required by @world (argument)
+>=dev-python/pygobject-3.50.1 python_targets_python3_11
+# required by dev-python/pygobject-3.50.1::gentoo[cairo]
+# required by dev-python/pywebview-5.1-r2::guru[gtk]
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_11,webview]
+# required by @selected
+# required by @world (argument)
+>=dev-python/pycairo-1.28.0 python_targets_python3_11
+# required by dev-python/cryptography-46.0.3::gentoo[-python_targets_python3_14,python_targets_python3_13,python_targets_python3_12,-test,python_targets_python3_11]
+# required by dev-python/pywebview-5.1-r2::guru
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_11,webview]
+# required by @selected
+# required by @world (argument)
+>=dev-python/cffi-2.0.0 python_targets_python3_11
+# required by dev-python/cryptography-46.0.3::gentoo
+# required by dev-python/pywebview-5.1-r2::guru
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_11,webview]
+# required by @selected
+# required by @world (argument)
+>=dev-util/maturin-1.9.6 python_targets_python3_11
+# required by dev-python/cffi-2.0.0::gentoo[-test]
+# required by dev-python/cryptography-46.0.3::gentoo[-python_targets_python3_14,python_targets_python3_13,python_targets_python3_12,-test,python_targets_python3_11]
+# required by dev-python/pywebview-5.1-r2::guru
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_11,webview]
+# required by @selected
+# required by @world (argument)
+>=dev-python/pycparser-2.23 python_targets_python3_11
+# required by dev-python/pycparser-2.23::gentoo[-test]
+# required by dev-python/cffi-2.0.0::gentoo[-test]
+# required by dev-python/cryptography-46.0.3::gentoo[-python_targets_python3_14,python_targets_python3_13,python_targets_python3_12,-test,python_targets_python3_11]
+# required by dev-python/pywebview-5.1-r2::guru
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_11,webview]
+# required by @selected
+# required by @world (argument)
+>=dev-python/ply-3.11-r2 python_targets_python3_11
+# required by dev-python/requests-2.32.5::gentoo
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_11]
+# required by @selected
+# required by @world (argument)
+>=dev-python/certifi-3024.7.22 python_targets_python3_11
+# required by dev-python/requests-2.32.5::gentoo
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_11]
+# required by @selected
+# required by @world (argument)
+>=dev-python/charset-normalizer-3.4.4 python_targets_python3_11
+# required by dev-python/requests-2.32.5::gentoo
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_11]
+# required by @selected
+# required by @world (argument)
+>=dev-python/idna-3.11 python_targets_python3_11
+# required by dev-python/requests-2.32.5::gentoo
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_11]
+# required by @selected
+# required by @world (argument)
+>=dev-python/urllib3-2.5.0 python_targets_python3_11
+# required by dev-python/urllib3-2.5.0::gentoo
+# required by dev-python/requests-2.32.5::gentoo
+# required by games-util/legendary-0.20.34-r2::guru[python_single_target_python3_11]
+# required by @selected
+# required by @world (argument)
+>=dev-python/pysocks-1.7.1-r2 python_targets_python3_11
+# required by app-text/llpp-33::gentoo
+# required by llpp (argument)
+>=dev-ml/lablgl-1.07 glut
+# required by media-sound/rhythmbox-3.4.8-r2::gentoo
+# required by rhythmbox (argument)
+>=dev-libs/libpeas-1.36.0:0 gtk
+# required by net-misc/sunshine-2025.924.154138::gentoo
+# required by sunshine (argument)
+>=media-libs/mesa-25.2.7 vaapi
+# required by dev-python/charset-normalizer-3.4.4-r1::gentoo[python_targets_python3_11,-python_targets_python3_14,python_targets_python3_12,python_targets_python3_13,native-extensions]
+# required by dev-python/requests-2.32.5::gentoo
+# required by dev-python/id-1.5.0::gentoo
+# required by dev-python/sigstore-4.1.0::gentoo
+# required by dev-lang/python-3.14.0_p1::gentoo[verify-sig]
+# required by dev-qt/qtdeclarative-6.9.3-r1::gentoo
+# required by dev-qt/qttools-6.9.3::gentoo[qml]
+# required by dev-qt/qttranslations-6.9.3::gentoo
+# required by dev-qt/qtbase-6.9.3::gentoo[nls]
+# required by dev-qt/qtshadertools-6.9.3::gentoo
+>=dev-python/mypy-1.18.2 python_targets_python3_11 python_targets_python3_12
+# required by dev-python/mypy-1.18.2::gentoo[-test,native-extensions]
+# required by dev-python/charset-normalizer-3.4.4-r1::gentoo[python_targets_python3_11,-python_targets_python3_14,python_targets_python3_12,python_targets_python3_13,native-extensions]
+# required by dev-python/requests-2.32.5::gentoo
+# required by dev-python/id-1.5.0::gentoo
+# required by dev-python/sigstore-4.1.0::gentoo
+# required by dev-lang/python-3.14.0_p1::gentoo[verify-sig]
+# required by dev-qt/qtdeclarative-6.9.3-r1::gentoo
+# required by dev-qt/qttools-6.9.3::gentoo[qml]
+# required by dev-qt/qttranslations-6.9.3::gentoo
+# required by dev-qt/qtbase-6.9.3::gentoo[nls]
+# required by dev-qt/qtshadertools-6.9.3::gentoo
+>=dev-python/psutil-7.1.3 python_targets_python3_11 python_targets_python3_12
+# required by dev-python/mypy-1.18.2::gentoo[-test,native-extensions]
+# required by dev-python/charset-normalizer-3.4.4-r1::gentoo[python_targets_python3_11,-python_targets_python3_14,python_targets_python3_12,python_targets_python3_13,native-extensions]
+# required by dev-python/requests-2.32.5::gentoo
+# required by dev-python/id-1.5.0::gentoo
+# required by dev-python/sigstore-4.1.0::gentoo
+# required by dev-lang/python-3.14.0_p1::gentoo[verify-sig]
+# required by dev-qt/qtdeclarative-6.9.3-r1::gentoo
+# required by dev-qt/qttools-6.9.3::gentoo[qml]
+# required by dev-qt/qttranslations-6.9.3::gentoo
+# required by dev-qt/qtbase-6.9.3::gentoo[nls]
+# required by dev-qt/qtshadertools-6.9.3::gentoo
+>=dev-python/typing-extensions-4.15.0 python_targets_python3_11 python_targets_python3_12
+# required by dev-python/mypy-1.18.2::gentoo[-test,native-extensions]
+# required by dev-python/charset-normalizer-3.4.4-r1::gentoo[python_targets_python3_11,-python_targets_python3_14,python_targets_python3_12,python_targets_python3_13,native-extensions]
+# required by dev-python/requests-2.32.5::gentoo
+# required by dev-python/id-1.5.0::gentoo
+# required by dev-python/sigstore-4.1.0::gentoo
+# required by dev-lang/python-3.14.0_p1::gentoo[verify-sig]
+# required by dev-qt/qtdeclarative-6.9.3-r1::gentoo
+# required by dev-qt/qttools-6.9.3::gentoo[qml]
+# required by dev-qt/qttranslations-6.9.3::gentoo
+# required by dev-qt/qtbase-6.9.3::gentoo[nls]
+# required by dev-qt/qtshadertools-6.9.3::gentoo
+>=dev-python/mypy-extensions-1.1.0 python_targets_python3_11 python_targets_python3_12
+# required by dev-python/mypy-1.18.2::gentoo[native-extensions]
+# required by dev-python/charset-normalizer-3.4.4-r1::gentoo[python_targets_python3_11,-python_targets_python3_14,python_targets_python3_12,python_targets_python3_13,native-extensions]
+# required by dev-python/requests-2.32.5::gentoo
+# required by dev-python/id-1.5.0::gentoo
+# required by dev-python/sigstore-4.1.0::gentoo
+# required by dev-lang/python-3.14.0_p1::gentoo[verify-sig]
+# required by dev-qt/qtdeclarative-6.9.3-r1::gentoo
+# required by dev-qt/qttools-6.9.3::gentoo[qml]
+# required by dev-qt/qttranslations-6.9.3::gentoo
+# required by dev-qt/qtbase-6.9.3::gentoo[nls]
+# required by dev-qt/qtshadertools-6.9.3::gentoo
+>=dev-python/types-psutil-7.1.3.20251125 python_targets_python3_11 python_targets_python3_12
+# required by dev-python/mypy-1.18.2::gentoo[native-extensions]
+# required by dev-python/charset-normalizer-3.4.4-r1::gentoo[python_targets_python3_11,-python_targets_python3_14,python_targets_python3_12,python_targets_python3_13,native-extensions]
+# required by dev-python/requests-2.32.5::gentoo
+# required by dev-python/id-1.5.0::gentoo
+# required by dev-python/sigstore-4.1.0::gentoo
+# required by dev-lang/python-3.14.0_p1::gentoo[verify-sig]
+# required by dev-qt/qtdeclarative-6.9.3-r1::gentoo
+# required by dev-qt/qttools-6.9.3::gentoo[qml]
+# required by dev-qt/qttranslations-6.9.3::gentoo
+# required by dev-qt/qtbase-6.9.3::gentoo[nls]
+# required by dev-qt/qtshadertools-6.9.3::gentoo
+>=dev-python/types-setuptools-80.9.0.20250822 python_targets_python3_11 python_targets_python3_12
+# required by dev-python/mypy-1.19.0::gentoo[-test,native-extensions]
+# required by dev-python/charset-normalizer-3.4.4-r1::gentoo[python_targets_python3_13,-python_targets_python3_14,python_targets_python3_11,python_targets_python3_12,native-extensions]
+# required by dev-python/requests-2.32.5::gentoo
+# required by media-gfx/blender-5.0.0::gentoo[python_single_target_python3_13]
+# required by @selected
+# required by @world (argument)
+>=dev-python/librt-0.6.3 python_targets_python3_11 python_targets_python3_12
+# required by app-containers/containers-common-0.63.0::gentoo
+# required by app-containers/podman-5.7.0::gentoo
+# required by app-containers/podman (argument)
+>=net-firewall/iptables-1.8.11-r1 nftables
+# required by games-util/mangohud-0.8.1::guru[mangoapp]
+# required by @selected
+# required by @world (argument)
+=media-libs/imgui-1.89.9-r4 glfw
+# required by games-util/mangohud-0.8.1::guru[mangoplot,python_single_target_python3_13]
+# required by @selected
+# required by @world (argument)
+>=dev-python/matplotlib-3.10.7 gtk3
+# required by dev-python/matplotlib-3.10.7::gentoo[-test]
+# required by games-util/mangohud-0.8.1::guru[mangoplot,python_single_target_python3_13]
+# required by @selected
+# required by @world (argument)
+>=virtual/imagemagick-tools-1 tiff jpeg
+# required by virtual/imagemagick-tools-1::gentoo[-svg]
+# required by dev-python/matplotlib-3.10.7::gentoo[-test]
+# required by games-util/mangohud-0.8.1::guru[mangoplot,python_single_target_python3_13]
+# required by @selected
+# required by @world (argument)
+>=media-gfx/imagemagick-7.1.2.5 tiff jpeg
+# required by games-util/steam-launcher-1.0.0.85-r2::steam-overlay[vulkan,video_cards_nvidia]
+# required by @selected
+# required by @world (argument)
+>=media-libs/vulkan-loader-1.4.328.0-r1 layers
+# required by gnome-base/nautilus-48.4.1-r1::gentoo
+# required by gnome-extra/sushi-46.0::gentoo
+>=dev-libs/libportal-0.9.1 gtk

@@ -1,0 +1,7 @@
+*# GPG secrets
+etc/portage/gnupg/private-keys-v1.d/
+etc/portage/gnupg/pass
+etc/portage/gnupg/*.db
+etc/portage/gnupg/*.kbx~
+etc/portage/gnupg/.*  
+

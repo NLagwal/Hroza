@@ -1,0 +1,3 @@
+www-client/librewolf buildpkg.conf
+www-client/qutebrowser buildpkg.conf
+games-util/lutris buildpkg.conf

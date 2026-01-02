@@ -1,0 +1,4 @@
+cross-aarch64-linux-android/linux-headers  multilib
+cross-aarch64-linux-android/binutils  cet multilib
+cross-aarch64-linux-android/gcc  cet multilib
+cross-aarch64-linux-android/gdb  multilib

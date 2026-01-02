@@ -1,0 +1,2 @@
+cross-aarch64-linux-android/binutils -multilib
+cross-aarch64-linux-android/gcc -sanitize -vtv -selinux -objc -objc++ -objc-gc -vtv -fortran -d -go -jit -cxx -openmp -sanitize -zstd -zlib -multilib

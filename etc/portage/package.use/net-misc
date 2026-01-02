@@ -1,0 +1,39 @@
+net-misc/networkmanager nftables
+net-misc/spice-gtk usbredir
+net-misc/sunshine libdrm svt-av1  x264 x265 trayicon
+# required by app-emulation/virt-manager-5.0.0-r2::gentoo[python_single_target_python3_11]
+# required by virt-manager (argument)
+>=dev-python/argcomplete-3.6.2 python_targets_python3_11
+# required by app-emulation/virt-manager-5.0.0-r2::gentoo[python_single_target_python3_11]
+# required by virt-manager (argument)
+>=dev-python/libvirt-python-11.4.0 python_targets_python3_11
+# required by app-emulation/libvirt-11.4.0::gentoo[virt-network]
+# required by app-emulation/libvirt-glib-5.0.0-r1::gentoo
+# required by app-emulation/virt-manager-5.0.0-r2::gentoo
+# required by virt-manager (argument)
+>=net-dns/dnsmasq-2.91 script
+# required by net-analyzer/wireshark-4.4.7::gentoo[minizip]
+# required by app-emulation/libvirt-11.4.0::gentoo[wireshark-plugins]
+# required by app-emulation/libvirt-glib-5.0.0-r1::gentoo
+# required by app-emulation/virt-manager-5.0.0-r2::gentoo
+# required by virt-manager (argument)
+>=sys-libs/zlib-1.3.1-r1 minizip
+# required by x11-misc/xdg-utils-1.2.1-r9::gentoo
+# required by net-analyzer/wireshark-4.4.7::gentoo[gui]
+# required by app-emulation/libvirt-11.4.0::gentoo[wireshark-plugins]
+# required by app-emulation/libvirt-glib-5.0.0-r1::gentoo
+# required by app-emulation/virt-manager-5.0.0-r2::gentoo
+# required by virt-manager (argument)
+>=app-text/xmlto-0.0.28-r11 text
+# required by app-crypt/swtpm-0.10.0-r1::gentoo
+# required by app-emulation/libvirt-11.4.0::gentoo[qemu]
+# required by app-emulation/libvirt-glib-5.0.0-r1::gentoo
+# required by app-emulation/virt-manager-5.0.0-r2::gentoo
+# required by virt-manager (argument)
+>=net-libs/gnutls-3.8.9-r1 tools pkcs11
+# required by net-firewall/firewalld-2.3.0-r2::gentoo
+# required by app-emulation/libvirt-11.4.0::gentoo[firewalld]
+# required by app-emulation/libvirt-glib-5.0.0-r1::gentoo
+# required by app-emulation/virt-manager-5.0.0-r2::gentoo
+# required by virt-manager (argument)
+>=net-firewall/nftables-1.1.3 python_targets_python3_11 json python xtables

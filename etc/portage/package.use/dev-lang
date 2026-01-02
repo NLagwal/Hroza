@@ -1,0 +1,2 @@
+dev-lang/php ctype curl fileinfo filter gd iconv ssl posix session simplexml xmlreader xmlwriter zip zlib postgres pdo bzip2 gmp bcmath exif intl sysvipc
+dev-lang/perl  gdbm -berkdb -doc -minimal ithreads

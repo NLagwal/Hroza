@@ -1,0 +1,3 @@
+app-admin/doas pam persist
+app-admin/keepassxc browser keeshare yubikey
+app-admin/pass dmenu importers
